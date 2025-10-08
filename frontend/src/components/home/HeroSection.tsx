@@ -205,7 +205,7 @@ const HeroSection = () => {
         {/* Loading indicator for video */}
         {!videoError && (
           <div className="absolute bottom-4 right-4 text-xs text-gray-400 bg-black bg-opacity-50 px-2 py-1 rounded">
-            {videoError ? 'Image Mode' : 'Video Loading...'}
+            {videoError ? 'Image Mode' : ''}
           </div>
         )}
       </section>
