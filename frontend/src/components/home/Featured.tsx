@@ -18,7 +18,7 @@ const PrefabContainerSection = () => {
       bgColor: "bg-blue-50",
       iconColor: "text-blue-600",
       images: [
-        "https://prefabdavao.com/wp-content/uploads/2024/10/m2.webp",
+        "https://cdn.shopify.com/s/files/1/0574/5491/9846/files/axiom-desert-house-by-turkel-design-palm-springs-ca-photo-by-chase-daniel.jpg?v=1753283916",
         "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&h=600&fit=crop",
         "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=800&h=600&fit=crop",
         "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=800&h=600&fit=crop"
@@ -35,15 +35,15 @@ const PrefabContainerSection = () => {
       bgColor: "bg-emerald-50",
       iconColor: "text-emerald-600",
       images: [
+        "https://camcoprefabricatedstructures.com/wp-content/uploads/2025/02/1719035864073-scaled.webp",
         "https://camcoprefabricatedstructures.com/wp-content/uploads/2025/02/1719035864076-scaled.webp",
-        "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&h=600&fit=crop",
-        "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=800&h=600&fit=crop",
+        "https://camcoprefabricatedstructures.com/wp-content/uploads/2025/02/1719035864078-scaled.webp",
         "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800&h=600&fit=crop"
       ]
     },
     {
       id: 3,
-      title: "Comfortable Bunkhouses",
+      title: "Comfortable Camhouses",
       subtitle: "Temporary Housing Solutions",
       description: "Worker accommodations for construction sites and camps with privacy partitions, shared facilities, and durable construction.",
       icon: Users,
@@ -53,7 +53,7 @@ const PrefabContainerSection = () => {
       iconColor: "text-orange-600",
       images: [
         "https://camcoprefabricatedstructures.com/wp-content/uploads/2025/02/1690946425830.webp",
-        "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=800&h=600&fit=crop",
+        "https://camcoprefabricatedstructures.com/wp-content/uploads/2025/02/1690946425822.webp",
         "https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&h=600&fit=crop",
         "https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=800&h=600&fit=crop"
       ]
@@ -70,9 +70,9 @@ const PrefabContainerSection = () => {
       iconColor: "text-purple-600",
       images: [
         "https://camcoprefabricatedstructures.com/wp-content/uploads/2025/02/Crispy-King-scaled.webp",
-        "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&h=600&fit=crop",
-        "https://images.unsplash.com/photo-1560472355-536de3962603?w=800&h=600&fit=crop",
-        "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&h=600&fit=crop"
+        "https://camcoprefabricatedstructures.com/wp-content/uploads/2025/02/Crispy-King-3-scaled.webp",
+        "https://camcoprefabricatedstructures.com/wp-content/uploads/2025/02/Crispy-King-2-scaled.webp",
+        "https://camcoprefabricatedstructures.com/wp-content/uploads/2025/02/Crispy-King-scaled.webp"
       ]
     },
     {
@@ -87,7 +87,7 @@ const PrefabContainerSection = () => {
       iconColor: "text-indigo-600",
       images: [
         "https://camcoprefabricatedstructures.com/wp-content/uploads/2025/02/22.webp",
-        "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=800&h=600&fit=crop",
+        "https://camcoprefabricatedstructures.com/wp-content/uploads/2025/02/21.webp",
         "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&h=600&fit=crop",
         "https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=800&h=600&fit=crop"
       ]
@@ -96,7 +96,7 @@ const PrefabContainerSection = () => {
       id: 6,
       title: "Portable Toilets",
       subtitle: "Utility & Sanitary Buildings",
-      description: "Self-contained facilities for events, construction sites, and remote locations with easy transport and quick setup capabilities.",
+      description: "Self-contained facilities for events,   construction sites, and remote locations with easy transport and quick setup capabilities.",
       icon: Wrench,
       features: ["Easy transport", "Quick setup", "Self-contained", "Maintenance-friendly"],
       gradient: "from-gray-600 to-slate-400",
@@ -104,9 +104,9 @@ const PrefabContainerSection = () => {
       iconColor: "text-gray-600",
       images: [
         "https://i.pinimg.com/736x/03/49/3a/03493a3fed74956909167270d16659fc.jpg",
-        "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop",
-        "https://images.unsplash.com/photo-1581578731548-c64695cc6952?w=800&h=600&fit=crop",
-        "https://images.unsplash.com/photo-1590736969955-71cc94901144?w=800&h=600&fit=crop"
+        "https://i.pinimg.com/1200x/86/2b/56/862b56ef6e6b11d31f176d43e31f63dd.jpg",
+        "https://i.pinimg.com/1200x/59/2e/28/592e28f9350ac297a74008f050fe18f2.jpg",
+        "https://i.pinimg.com/1200x/5b/a9/69/5ba9695f540f41aa243433609c063668.jpg"
       ]
     }
   ];
