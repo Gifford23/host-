@@ -91,46 +91,42 @@ const PrefabVsContainerSection = () => {
             isVisible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
           }`}
         >
-          <Badge className="bg-sky-500 text-black mb-8 animate-pulse">
-            COMPARE
+          <Badge className="bg-gradient-to-r from-emerald-30000 to-indigo-600 text-white mb-8 px-6 py-2 text-sm font-medium tracking-wider uppercase shadow-lg hover:scale-110 transition-all duration-300 border-0">
+            Comparative Analysis
           </Badge>
-          <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-4 leading-tight">
+
+          <h2 className="text-5xl md:text-6xl lg:text-7xl font-light tracking-tight leading-none">
             <span
-              className={`inline-block transition-all duration-700 delay-300 ${
+              className={`inline-block font-serif italic transition-all duration-700 delay-300 bg-gradient-to-r from-blue-200 to-green-300 bg-clip-text text-transparent ${
                 isVisible
                   ? "opacity-100 translate-x-0"
                   : "opacity-0 -translate-x-10"
               }`}
             >
-              PREFABRICATED
+              Prefabricated
             </span>
             <span
-              className={`text-sky-400 mx-4 inline-block transition-all duration-700 delay-500 ${
-                isVisible ? "opacity-100 scale-100" : "opacity-0 scale-50"
+              className={`mx-8 inline-block transition-all duration-700 delay-500 ${
+                isVisible
+                  ? "opacity-100 scale-100 rotate-0"
+                  : "opacity-0 scale-50 rotate-180"
               }`}
             >
-              VS
+              <span className="text-2xl md:text-3xl font-light text-slate-400 relative">
+                versus
+                <div className="absolute -bottom-1 left-1/2 transform -translate-x-1/2 w-16 h-px bg-gradient-to-r from-transparent via-blue-400 to-transparent"></div>
+              </span>
             </span>
             <span
-              className={`inline-block transition-all duration-700 delay-700 ${
+              className={`inline-block font-serif italic transition-all duration-700 delay-700 bg-gradient-to-r from-orange-400 to-amber-300 bg-clip-text text-transparent ${
                 isVisible
                   ? "opacity-100 translate-x-0"
                   : "opacity-0 translate-x-10"
               }`}
             >
-              CONTAINER VAN
+              Container Van
             </span>
           </h2>
-          <p
-            className={`text-gray-300 text-center max-w-3xl mx-auto text-lg transition-all duration-1000 delay-900 ${
-              isVisible
-                ? "opacity-100 translate-y-0"
-                : "opacity-0 translate-y-5"
-            }`}
-          >
-            Understanding the key differences to help you make an informed
-            decision
-          </p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
@@ -276,7 +272,7 @@ const PrefabVsContainerSection = () => {
         >
           <Button
             size="lg"
-            className="bg-sky-500 text-black hover:bg-sky-400 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-sky-500/25"
+            className="bg-gray-400 text-black hover:bg-sky-500 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-sky-500/25"
           >
             <Link to="/Shop" className="flex items-center">
               Browse Our Products
