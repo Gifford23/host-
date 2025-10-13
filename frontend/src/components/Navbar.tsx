@@ -24,8 +24,6 @@ import { useCart } from "@/context/CartContext"; // MOD: Imported useCart hook
 import CustomerNotifications from "@/components/customer/CustomerNotifications";
 import logo from "@/assets/logo.png";
 
-
-
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const { user, isAuthenticated, logout } = useAuth();
@@ -64,8 +62,7 @@ const Navbar = () => {
               <span className="text-2xl font-bold text-blue-950 transition-colors duration-300 hover:text-blue-600">
                 Camco Prefab
               </span>
-              </Link>
-
+            </Link>
           </div>
 
           {/* Desktop Navigation */}
