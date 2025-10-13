@@ -187,7 +187,7 @@ const PrefabVsConventionalSection = () => {
                     : "opacity-0 -translate-x-10"
                 }`}
               >
-                Prefab
+                Prefab Modules
               </span>
               <span
                 className={`mx-8 inline-block transition-all duration-700 delay-500 ${
