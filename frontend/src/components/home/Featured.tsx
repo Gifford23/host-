@@ -156,27 +156,27 @@ const PrefabContainerSection = () => {
     },
   ];
 
-  // Auto-play functionality for main carousel
+  // Combined auto-play functionality - cycles through all 4 images before moving to next feature
   useEffect(() => {
     if (!isAutoPlaying) return;
 
     const interval = setInterval(() => {
-      setCurrentSlide((prev) => (prev + 1) % applications.length);
-    }, 6000);
+      setCurrentImageIndex((prev) => {
+        const nextImageIndex = (prev + 1) % 4;
+
+        // If we've completed all 4 images (going back to 0), move to next slide
+        if (nextImageIndex === 0) {
+          setCurrentSlide((prevSlide) => (prevSlide + 1) % applications.length);
+        }
+
+        return nextImageIndex;
+      });
+    }, 3000); // Change image every 3 seconds (4 images × 3 seconds = 12 seconds per feature)
 
     return () => clearInterval(interval);
   }, [isAutoPlaying, applications.length]);
 
-  // Auto-play functionality for image carousel
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentImageIndex((prev) => (prev + 1) % 4);
-    }, 3000);
-
-    return () => clearInterval(interval);
-  }, []);
-
-  // Reset image index when slide changes
+  // Reset image index when slide changes manually
   useEffect(() => {
     setCurrentImageIndex(0);
   }, [currentSlide]);
