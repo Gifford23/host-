@@ -20,68 +20,73 @@ const Home = () => {
   return (
     <Layout>
       <div className="min-h-screen relative">
-        {/* All content sections with smooth transitions */}
+        {/* 1. HERO - First Impression & Value Proposition */}
         <div className="animate-fade-in">
           <HeroSection />
         </div>
 
+        {/* 2. TRUST SIGNALS - Build Credibility Immediately */}
         <div className="animate-fade-in" style={{ animationDelay: "0.1s" }}>
           <Banner />
-        </div>
-
-        <div className="animate-fade-in" style={{ animationDelay: "0.1s" }}>
-          <Featured />
         </div>
 
         <div className="animate-fade-in" style={{ animationDelay: "0.1s" }}>
           <StatisticsSection />
         </div>
 
-        <div className="animate-fade-in" style={{ animationDelay: "0.4s" }}>
-          <CreativeDesignsCarousel />
+        {/* 3. FEATURED HIGHLIGHTS - What Makes You Special */}
+        <div className="animate-fade-in" style={{ animationDelay: "0.1s" }}>
+          <Featured />
         </div>
 
-        <div className="animate-fade-in" style={{ animationDelay: "0.1s" }}>
+        {/* 4. PRODUCT SHOWCASE - Main Offerings */}
+        <div className="animate-fade-in" style={{ animationDelay: "0.2s" }}>
           <Collections />
         </div>
 
-        <div className="animate-fade-in" style={{ animationDelay: "0.2s" }}>
+        <div className="animate-fade-in" style={{ animationDelay: "0.3s" }}>
+          <CreativeDesignsCarousel />
+        </div>
+
+        {/* 5. KEY FEATURES - Benefits & Advantages */}
+        <div className="animate-fade-in" style={{ animationDelay: "0.4s" }}>
           <FeaturesSection />
         </div>
 
-        <div className="animate-fade-in" style={{ animationDelay: "0.2s" }}>
-          <PhilippinesMapSection />
-        </div>
-
         <div className="animate-fade-in" style={{ animationDelay: "0.5s" }}>
-          <TechnicalDataSection />
-        </div>
-
-        <div className="animate-fade-in" style={{ animationDelay: "0.6s" }}>
-          <ContainerUnitDetailsSection />
-        </div>
-
-        <div className="animate-fade-in" style={{ animationDelay: "0.6s" }}>
           <ElegantFeaturesSection />
         </div>
 
+        {/* 6. TECHNICAL DETAILS - Deep Dive for Serious Buyers */}
+        <div className="animate-fade-in" style={{ animationDelay: "0.6s" }}>
+          <TechnicalDataSection />
+        </div>
+
         <div className="animate-fade-in" style={{ animationDelay: "0.7s" }}>
+          <ContainerUnitDetailsSection />
+        </div>
+
+        {/* 7. COMPARISONS - Why Choose Us Over Alternatives */}
+        <div className="animate-fade-in" style={{ animationDelay: "0.8s" }}>
           <PrefabVsContainerSection />
         </div>
 
-        <div className="flex w-full flex-col">
-          <div className="card bg-base-300 rounded-box grid h-20 place-items-center"></div>
-        </div>
-
-        <div className="animate-fade-in" style={{ animationDelay: "0.8s" }}>
+        <div className="animate-fade-in" style={{ animationDelay: "0.9s" }}>
           <PrefabVsConventionalSection />
         </div>
 
-        <div className="animate-fade-in" style={{ animationDelay: "0.9s" }}>
+        {/* 8. SOCIAL PROOF - Customer Validation */}
+        <div className="animate-fade-in" style={{ animationDelay: "1.0s" }}>
           <TestimonialsSection />
         </div>
 
-        <div className="animate-fade-in" style={{ animationDelay: "1.0s" }}>
+        {/* 9. LOCATION & REACH - Service Area */}
+        <div className="animate-fade-in" style={{ animationDelay: "1.1s" }}>
+          <PhilippinesMapSection />
+        </div>
+
+        {/* 10. FINAL CTA - Convert Visitors to Leads */}
+        <div className="animate-fade-in" style={{ animationDelay: "1.2s" }}>
           <CTASection />
         </div>
       </div>
