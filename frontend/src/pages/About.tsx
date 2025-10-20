@@ -318,6 +318,7 @@ const About = () => {
         <div className="absolute top-1/2 right-1/4 w-12 h-12 bg-white/10 rounded-full animate-bounce hidden lg:block backdrop-blur-sm"></div>
         <div className="absolute top-1/3 left-1/4 w-6 h-6 bg-blue-400/30 rotate-45 animate-ping hidden lg:block"></div>
       </section>
+
       {/* Company Story */}
       <section className="py-20 bg-white">
         <div className="container mx-auto px-6">
@@ -367,70 +368,7 @@ const About = () => {
           </div>
         </div>
       </section>
-      {/* Company Timeline Section */}
-      <section className="py-24 bg-gradient-to-br from-blue-50 to-white relative overflow-hidden">
-        <div className="absolute inset-0 opacity-20 pointer-events-none">
-          <svg
-            className="w-full h-full"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
-          >
-            <pattern
-              id="diagonal-lines"
-              x="0"
-              y="0"
-              width="10"
-              height="10"
-              patternUnits="userSpaceOnUse"
-            >
-              <path
-                d="M-1 1L11 11M-1 5L5 11M5 -1L11 5"
-                stroke="#E0F2F7"
-                strokeWidth="2"
-              />
-            </pattern>
-            <rect width="100%" height="100%" fill="url(#diagonal-lines)" />
-          </svg>
-        </div>
 
-        <div className="container mx-auto px-6 relative z-10">
-          <div className="max-w-4xl mx-auto text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-extrabold mb-6 text-gray-900 tracking-tight">
-              Our <span className="text-blue-700">Journey</span> Through
-              Innovation
-            </h2>
-            <p className="text-xl text-gray-700 leading-relaxed font-light">
-              Explore the key milestones that have shaped CamcoPrefab into a
-              leader in modular construction.
-            </p>
-          </div>
-
-          <div className="relative border-l-4 border-blue-300 space-y-16 pl-8 md:pl-16 ml-4 md:ml-8">
-            {timelineEvents.map((event, index) => (
-              <div key={index} className="relative group">
-                <div className="absolute -left-12 md:-left-20 top-0 mt-1 flex items-center justify-center w-8 h-8 bg-blue-600 rounded-full text-white shadow-lg transition-transform duration-300 group-hover:scale-125">
-                  <span className="font-semibold text-sm">{index + 1}</span>
-                </div>
-                <div className="absolute -left-4 md:-left-8 top-0 mt-2 w-4 h-4 bg-white border-2 border-blue-600 rounded-full"></div>{" "}
-                {/* Smaller dot on line */}
-                <Card className="bg-white shadow-xl rounded-lg p-6 md:p-8 ml-4 border-t-4 border-blue-500 transform hover:scale-[1.01] transition-transform duration-300">
-                  <CardContent className="p-0">
-                    <h3 className="text-xl md:text-2xl font-bold text-blue-700 mb-2">
-                      {event.year}
-                    </h3>
-                    <h4 className="text-xl md:text-2xl font-semibold text-gray-900 mb-3">
-                      {event.title}
-                    </h4>
-                    <p className="text-gray-700 leading-relaxed">
-                      {event.description}
-                    </p>
-                  </CardContent>
-                </Card>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
       {/* Enhanced Mission & Vision */}
       <section className="py-24 bg-gradient-to-br from-gray-100 to-blue-50 relative overflow-hidden">
         <div className="absolute inset-0 opacity-10 pointer-events-none">
@@ -513,6 +451,7 @@ const About = () => {
           </div>
         </div>
       </section>
+
       {/* Enhanced Values */}
       <section className="py-24 bg-white relative overflow-hidden">
         <div className="absolute inset-0 bg-blue-50 opacity-50 -skew-y-3"></div>
@@ -552,8 +491,72 @@ const About = () => {
         </div>
       </section>
 
-      {/* Team */}
+      {/* Company Timeline Section */}
+      <section className="py-24 bg-gradient-to-br from-blue-50 to-white relative overflow-hidden">
+        <div className="absolute inset-0 opacity-20 pointer-events-none">
+          <svg
+            className="w-full h-full"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <pattern
+              id="diagonal-lines"
+              x="0"
+              y="0"
+              width="10"
+              height="10"
+              patternUnits="userSpaceOnUse"
+            >
+              <path
+                d="M-1 1L11 11M-1 5L5 11M5 -1L11 5"
+                stroke="#E0F2F7"
+                strokeWidth="2"
+              />
+            </pattern>
+            <rect width="100%" height="100%" fill="url(#diagonal-lines)" />
+          </svg>
+        </div>
 
+        <div className="container mx-auto px-6 relative z-10">
+          <div className="max-w-4xl mx-auto text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-extrabold mb-6 text-gray-900 tracking-tight">
+              Our <span className="text-blue-700">Journey</span> Through
+              Innovation
+            </h2>
+            <p className="text-xl text-gray-700 leading-relaxed font-light">
+              Explore the key milestones that have shaped CamcoPrefab into a
+              leader in modular construction.
+            </p>
+          </div>
+
+          <div className="relative border-l-4 border-blue-300 space-y-16 pl-8 md:pl-16 ml-4 md:ml-8">
+            {timelineEvents.map((event, index) => (
+              <div key={index} className="relative group">
+                <div className="absolute -left-12 md:-left-20 top-0 mt-1 flex items-center justify-center w-8 h-8 bg-blue-600 rounded-full text-white shadow-lg transition-transform duration-300 group-hover:scale-125">
+                  <span className="font-semibold text-sm">{index + 1}</span>
+                </div>
+                <div className="absolute -left-4 md:-left-8 top-0 mt-2 w-4 h-4 bg-white border-2 border-blue-600 rounded-full"></div>{" "}
+                {/* Smaller dot on line */}
+                <Card className="bg-white shadow-xl rounded-lg p-6 md:p-8 ml-4 border-t-4 border-blue-500 transform hover:scale-[1.01] transition-transform duration-300">
+                  <CardContent className="p-0">
+                    <h3 className="text-xl md:text-2xl font-bold text-blue-700 mb-2">
+                      {event.year}
+                    </h3>
+                    <h4 className="text-xl md:text-2xl font-semibold text-gray-900 mb-3">
+                      {event.title}
+                    </h4>
+                    <p className="text-gray-700 leading-relaxed">
+                      {event.description}
+                    </p>
+                  </CardContent>
+                </Card>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Team */}
       <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-6">
           <div className="max-w-3xl mx-auto text-center mb-16">
@@ -592,6 +595,7 @@ const About = () => {
           </div>
         </div>
       </section>
+
       {/* How We Work Section */}
       <section className="py-24 bg-gradient-to-br from-gray-50 via-white to-blue-50/30 relative overflow-hidden">
         {/* Background Pattern */}
@@ -620,7 +624,6 @@ const About = () => {
               detail
             </p>
           </div>
-
           {/* Process Steps */}
           <div className="max-w-7xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-16 items-center">
@@ -747,7 +750,6 @@ const About = () => {
               </div>
             </div>
           </div>
-
           {/* Process Flow Visualization */}
           <div className="mt-20 max-w-4xl mx-auto">
             <div className="hidden lg:flex items-center justify-center space-x-8">
@@ -788,8 +790,8 @@ const About = () => {
               </div>
             </div>
           </div>
-
           {/* Call to Action */}
+          {}{" "}
           <div className="mt-20 text-center">
             <div className="bg-gradient-to-r from-blue-600 to-purple-600 rounded-2xl p-12 text-white">
               <h3 className="text-3xl font-bold mb-4">
@@ -810,7 +812,9 @@ const About = () => {
           </div>
         </div>
       </section>
+
       {/* Awards section to About page*/}
+
       <div>
         <AwardsShowcase />
       </div>
