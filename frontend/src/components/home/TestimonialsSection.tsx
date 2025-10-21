@@ -29,7 +29,7 @@ const TestimonialsSection = () => {
       role: "Homeowner",
       company: "Private Residence",
       content:
-        "The 3D design tool made it so easy to visualize my dream home. The ordering process was simple and the prefab components arrived exactly as scheduled. The quality exceeded my expectations!",
+        "Camco Prefab's modular wall panels and roofing systems transformed our home construction experience. The precision engineering and quality of materials are outstanding. Installation was seamless, and we moved in 3 months earlier than expected!",
       image:
         "https://i.pinimg.com/736x/03/df/1c/03df1c9315a8741a865120dfd04adc73.jpg",
       rating: 5,
@@ -40,7 +40,7 @@ const TestimonialsSection = () => {
       role: "Project Manager",
       company: "BuildRight Construction",
       content:
-        "We've been using Camco Prefab for all our modular building projects. The platform has streamlined our ordering process and improved our project delivery timelines by 40%.",
+        "The prefab structural components are consistently high-quality and arrive ready to install. Their customer support team is incredibly responsive, and the technical documentation is thorough. We've saved countless hours on-site with their precision-cut materials.",
       image:
         "https://upload.wikimedia.org/wikipedia/commons/d/d0/John_Lloyd_Cruz_by_Ronn_Tan%2C_April_2010.png",
       rating: 5,
@@ -51,7 +51,7 @@ const TestimonialsSection = () => {
       role: "Lead Architect",
       company: "Modern Spaces Architecture",
       content:
-        "The integration between design and ordering is seamless. My clients love being able to see their projects in 3D before committing. It's revolutionized our workflow.",
+        "The range of prefab solutions—from floor systems to complete wall assemblies—gives us incredible design flexibility. The quality control is evident in every component. My clients are always impressed with the finish quality and structural integrity.",
       image:
         "https://www.goodnewspilipinas.com/wp-content/uploads/2019/12/Joseph_Marco.jpg",
       rating: 5,
@@ -62,7 +62,7 @@ const TestimonialsSection = () => {
       role: "Interior Designer",
       company: "Santos Design Studio",
       content:
-        "The customization options are incredible. I can specify exact materials, finishes, and dimensions. The quality control is impeccable - every piece arrives perfect.",
+        "Working with Camco Prefab has elevated our interior projects. Their prefab partition systems and ceiling panels are not only beautiful but also meet strict building codes. The consistency in product quality and on-time delivery is unmatched in the industry.",
       image:
         "https://ui-avatars.com/api/?name=Maria+Santos&background=6366f1&color=white&size=80",
       rating: 5,
@@ -73,7 +73,7 @@ const TestimonialsSection = () => {
       role: "General Contractor",
       company: "Mendoza Construction Co.",
       content:
-        "Fast delivery, excellent quality, and competitive pricing. We've completed 15 projects using Camco Prefab components and our clients are always impressed.",
+        "The durability and weather resistance of their prefab panels have proven exceptional across all 15 of our completed projects. Their logistics team ensures damage-free delivery every time, and the cost savings compared to traditional construction methods are significant.",
       image:
         "https://ui-avatars.com/api/?name=Carlos+Mendoza&background=10b981&color=white&size=80",
       rating: 5,
@@ -84,7 +84,7 @@ const TestimonialsSection = () => {
       role: "Property Developer",
       company: "Reyes Properties",
       content:
-        "The speed of construction using prefab components has allowed us to deliver projects 60% faster than traditional methods. The ROI is outstanding.",
+        "Camco Prefab's modular building systems have revolutionized our development timeline. The structural soundness, thermal efficiency, and aesthetic appeal of their products exceed industry standards. Our buyers consistently praise the build quality and modern finishes.",
       image:
         "https://ui-avatars.com/api/?name=Ana+Reyes&background=f59e0b&color=white&size=80",
       rating: 5,
@@ -95,7 +95,7 @@ const TestimonialsSection = () => {
       role: "Homeowner",
       company: "Private Residence",
       content:
-        "Building our vacation home with Camco Prefab was stress-free. The timeline was predictable, the quality exceptional, and the support team was always available.",
+        "The prefab bathroom and kitchen modules we ordered were absolutely perfect—plumbing pre-installed, high-quality fixtures, and beautiful finishes. The customer service team guided us through every step, and the installation crew was professional and efficient.",
       image:
         "https://ui-avatars.com/api/?name=Robert+Johnson&background=ef4444&color=white&size=80",
       rating: 5,
@@ -106,7 +106,7 @@ const TestimonialsSection = () => {
       role: "Sustainable Building Consultant",
       company: "EcoDesign Solutions",
       content:
-        "The environmental benefits are remarkable. Reduced waste, sustainable materials, and energy-efficient designs. Perfect for clients focused on green building.",
+        "Camco Prefab's commitment to sustainable manufacturing is evident in their products. The insulated wall panels provide superior energy efficiency, and their use of recycled materials without compromising quality is impressive. Minimal construction waste and reduced carbon footprint make them our go-to choice.",
       image:
         "https://ui-avatars.com/api/?name=Lisa+Chen&background=8b5cf6&color=white&size=80",
       rating: 5,
@@ -386,7 +386,7 @@ const TestimonialsSection = () => {
         </div>
       </div>
 
-      <style jsx>{`
+      <style>{`
         @keyframes fade-in {
           from {
             opacity: 0;
